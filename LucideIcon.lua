@@ -388,6 +388,8 @@ OpenUIBtn.BorderSizePixel = 0
 OpenUIBtn.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 OpenUIBtn.Size = UDim2.new(0, 122, 0, 36)
 OpenUIBtn.Text = ""
+OpenUIBtn.Active = true
+OpenUIBtn.Draggable = true
 OpenUIBtn.Visible = false
 OpenUIBtn.Position = UDim2.new(0, 6, 0, 10)
 
