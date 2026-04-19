@@ -67,9 +67,9 @@ local UIGradient1 = Instance.new("UIGradient")
 UIGradient1.Parent = UIStroke1
 UIGradient1.Rotation = 75
 UIGradient1.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(34,34,34)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(34,34,34))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(34,34,34)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(34,34,34))
 }
 
 local Label = Instance.new("Frame")
@@ -110,9 +110,9 @@ local UIGradient2 = Instance.new("UIGradient")
 UIGradient2.Parent = UIStroke2
 UIGradient2.Rotation = 75
 UIGradient2.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(34,34,34)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(34,34,34))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(34,34,34)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(34,34,34))
 }
 
 local UICornerMain = Instance.new("UICorner")
@@ -135,9 +135,9 @@ ButtonHolder.Size = UDim2.new(0, 314, 0, 32)
 ButtonHolder.Position = UDim2.new(0, 154, 1, -10)
 ButtonHolder.BackgroundTransparency = 1
 
-local UICorner6 = Instance.new("UICorner")
-UICorner6.Parent = ButtonHolder
-UICorner6.CornerRadius = UDim.new(1, 0)
+local UICorner6h = Instance.new("UICorner")
+UICorner6h.Parent = ButtonHolder
+UICorner6h.CornerRadius = UDim.new(1, 0)
 
 local SearchBar = Instance.new("Frame")
 SearchBar.Name = "SearchBar"
@@ -149,9 +149,9 @@ SearchBar.Size = UDim2.new(0, 209, 0, 28)
 SearchBar.Position = UDim2.new(0.5, 0, 0.5, 0)
 SearchBar.BackgroundTransparency = 1
 
-local UICorner6 = Instance.new("UICorner")
-UICorner6.Parent = SearchBar
-UICorner6.CornerRadius = UDim.new(1, 0)
+local UICorner6s = Instance.new("UICorner")
+UICorner6s.Parent = SearchBar
+UICorner6s.CornerRadius = UDim.new(1, 0)
 
 local SearchBox = Instance.new("TextBox")
 SearchBox.Name = "SearchBox"
@@ -192,9 +192,9 @@ local UIGradientSearch = Instance.new("UIGradient")
 UIGradientSearch.Parent = UIStrokeSearch
 UIGradientSearch.Rotation = 85
 UIGradientSearch.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(35,35,35)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(35,35,35))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(35,35,35)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(35,35,35))
 }
 
 local UIStrokeButtonHolder = Instance.new("UIStroke")
@@ -206,9 +206,9 @@ local UIGradientButtonHolder = Instance.new("UIGradient")
 UIGradientButtonHolder.Parent = UIStrokeButtonHolder
 UIGradientButtonHolder.Rotation = 85
 UIGradientButtonHolder.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(35,35,35)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(35,35,35))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(35,35,35)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(35,35,35))
 }
 
 local RemoveBtn = Instance.new("TextButton")
@@ -256,15 +256,6 @@ CloseIcon.Size = UDim2.new(0, 17, 0, 17)
 CloseIcon.BackgroundTransparency = 1
 CloseIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
 
-local UIGradient3 = Instance.new("UIGradient")
-UIGradient3.Parent = UIStroke1c
-UIGradient3.Rotation = 85
-UIGradient3.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(35,35,35)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(117,117,117)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(35,35,35))
-}
-
 local UIScale = Instance.new("UIScale")
 UIScale.Parent = MainUI
 UIScale.Scale = 1.008
@@ -294,9 +285,9 @@ local UIGradient4 = Instance.new("UIGradient")
 UIGradient4.Parent = UIStroke3
 UIGradient4.Rotation = -56
 UIGradient4.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
 }
 
 local Preview = Instance.new("Frame")
@@ -314,11 +305,11 @@ CopyBtn.Name = "CopyBtn"
 CopyBtn.Parent = Preview
 CopyBtn.BorderSizePixel = 0
 CopyBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CopyBtn.AnchorPoint = Vector2.new(0.5, 0)
+CopyBtn.AnchorPoint = Vector2.new(0, 0)
 CopyBtn.BackgroundTransparency = 1
-CopyBtn.Size = UDim2.new(0, 158, 0, 34)
+CopyBtn.Size = UDim2.new(0, 75, 0, 34)
 CopyBtn.Text = ""
-CopyBtn.Position = UDim2.new(0.5, 0, 0, 148)
+CopyBtn.Position = UDim2.new(0, 18, 0, 148)
 
 local UICorner4 = Instance.new("UICorner")
 UICorner4.Parent = CopyBtn
@@ -346,9 +337,51 @@ local UIGradient5 = Instance.new("UIGradient")
 UIGradient5.Parent = UIStroke4
 UIGradient5.Rotation = 50
 UIGradient5.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
+}
+
+local CopyNameBtn = Instance.new("TextButton")
+CopyNameBtn.Name = "CopyNameBtn"
+CopyNameBtn.Parent = Preview
+CopyNameBtn.BorderSizePixel = 0
+CopyNameBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyNameBtn.AnchorPoint = Vector2.new(1, 0)
+CopyNameBtn.BackgroundTransparency = 1
+CopyNameBtn.Size = UDim2.new(0, 75, 0, 34)
+CopyNameBtn.Text = ""
+CopyNameBtn.Position = UDim2.new(1, -18, 0, 148)
+
+local UICornerCN = Instance.new("UICorner")
+UICornerCN.Parent = CopyNameBtn
+UICornerCN.CornerRadius = UDim.new(1, 0)
+
+local CopyNameIcon = Instance.new("ImageLabel")
+CopyNameIcon.Name = "CopyNameIcon"
+CopyNameIcon.Parent = CopyNameBtn
+CopyNameIcon.BorderSizePixel = 0
+CopyNameIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyNameIcon.ImageColor3 = Color3.fromRGB(226, 226, 226)
+CopyNameIcon.AnchorPoint = Vector2.new(0.5, 0.5)
+CopyNameIcon.Image = "rbxassetid://111491496660216"
+CopyNameIcon.Size = UDim2.new(0, 20, 0, 20)
+CopyNameIcon.BackgroundTransparency = 1
+CopyNameIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
+
+local UIStrokeCN = Instance.new("UIStroke")
+UIStrokeCN.Parent = CopyNameBtn
+UIStrokeCN.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStrokeCN.Thickness = 1.2
+UIStrokeCN.Color = Color3.fromRGB(255, 255, 255)
+
+local UIGradientCN = Instance.new("UIGradient")
+UIGradientCN.Parent = UIStrokeCN
+UIGradientCN.Rotation = 50
+UIGradientCN.Color = ColorSequence.new{
+ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
 }
 
 local UICorner5 = Instance.new("UICorner")
@@ -376,9 +409,9 @@ local UIGradient6 = Instance.new("UIGradient")
 UIGradient6.Parent = UIStroke5
 UIGradient6.Rotation = 50
 UIGradient6.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
+ColorSequenceKeypoint.new(0, Color3.fromRGB(38,38,38)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(121,121,121)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(38,38,38))
 }
 
 local OpenUIBtn = Instance.new("TextButton")
@@ -393,23 +426,23 @@ OpenUIBtn.Draggable = true
 OpenUIBtn.Visible = false
 OpenUIBtn.Position = UDim2.new(0, 6, 0, 10)
 
-local UICorner6 = Instance.new("UICorner")
-UICorner6.Parent = OpenUIBtn
-UICorner6.CornerRadius = UDim.new(1, 0)
+local UICorner6o = Instance.new("UICorner")
+UICorner6o.Parent = OpenUIBtn
+UICorner6o.CornerRadius = UDim.new(1, 0)
 
-local UIStroke6 = Instance.new("UIStroke")
-UIStroke6.Parent = OpenUIBtn
-UIStroke6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke6.Thickness = 0.8
-UIStroke6.Color = Color3.fromRGB(255, 255, 255)
+local UIStroke6o = Instance.new("UIStroke")
+UIStroke6o.Parent = OpenUIBtn
+UIStroke6o.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke6o.Thickness = 0.8
+UIStroke6o.Color = Color3.fromRGB(255, 255, 255)
 
-local UIGradient7 = Instance.new("UIGradient")
-UIGradient7.Parent = UIStroke6
-UIGradient7.Rotation = 75
-UIGradient7.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(34,34,34)),
-    ColorSequenceKeypoint.new(0.5, Color3.fromRGB(119,119,119)),
-    ColorSequenceKeypoint.new(1, Color3.fromRGB(34,34,34))
+local UIGradient7o = Instance.new("UIGradient")
+UIGradient7o.Parent = UIStroke6o
+UIGradient7o.Rotation = 75
+UIGradient7o.Color = ColorSequence.new{
+ColorSequenceKeypoint.new(0, Color3.fromRGB(34,34,34)),
+ColorSequenceKeypoint.new(0.5, Color3.fromRGB(119,119,119)),
+ColorSequenceKeypoint.new(1, Color3.fromRGB(34,34,34))
 }
 
 local Logo2 = Instance.new("ImageLabel")
@@ -2174,7 +2207,7 @@ local LucideIcons = {
 
 local SortedIcons = {}
 for k, v in pairs(LucideIcons) do
-	table.insert(SortedIcons, {Name = k, Asset = v})
+table.insert(SortedIcons, {Name = k, Asset = v})
 end
 table.sort(SortedIcons, function(a, b) return a.Name:lower() < b.Name:lower() end)
 
@@ -2193,63 +2226,66 @@ UIPadding.PaddingRight = UDim.new(0, 5)
 
 local IconHolders = {}
 local function refreshCanvas()
-	IconList.CanvasSize = UDim2.new(0, 0, 0, UIGrid.AbsoluteContentSize.Y + 20)
+IconList.CanvasSize = UDim2.new(0, 0, 0, UIGrid.AbsoluteContentSize.Y + 20)
 end
 UIGrid:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(refreshCanvas)
 
 for i, data in ipairs(SortedIcons) do
-	local Holder = Instance.new("Frame")
-	Holder.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-	Holder.Position = UDim2.new(0, 0, 0, 0)
-	Holder.Size = UDim2.new(0, 55, 0, 55)
-	Holder.BorderSizePixel = 0
-	Holder.LayoutOrder = i
-	Holder.Parent = IconList
-	Instance.new("UICorner", Holder).CornerRadius = UDim.new(0, 15)
+local Holder = Instance.new("Frame")
+Holder.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Holder.Size = UDim2.new(0, 55, 0, 55)
+Holder.BorderSizePixel = 0
+Holder.LayoutOrder = i
+Holder.Parent = IconList
+Instance.new("UICorner", Holder).CornerRadius = UDim.new(0, 15)
 
-	local ImgBtn = Instance.new("ImageButton")
-	ImgBtn.Size = UDim2.new(0, 40, 0, 40)
-	ImgBtn.Position = UDim2.new(0.5, -20, 0.5, -20)
-	ImgBtn.BackgroundTransparency = 1
-	ImgBtn.Image = data.Asset
-	ImgBtn.Parent = Holder
-
-	ImgBtn.MouseButton1Click:Connect(function()
-		IconPreview.Image = data.Asset
-		TitleName.Text = data.Name
-	end)
-
-	table.insert(IconHolders, {Holder = Holder, Data = data})
+local ImgBtn = Instance.new("ImageButton") 
+ImgBtn.Size = UDim2.new(0, 40, 0, 40) 
+ImgBtn.Position = UDim2.new(0.5, -20, 0.5, -20) 
+ImgBtn.BackgroundTransparency = 1 
+ImgBtn.Image = data.Asset 
+ImgBtn.Parent = Holder 
+ImgBtn.MouseButton1Click:Connect(function() 
+    IconPreview.Image = data.Asset 
+    TitleName.Text = data.Name 
+end) 
+table.insert(IconHolders, {Holder = Holder, Data = data}) 
 end
 
 local function UpdateSearch(query)
-	query = (query or ""):lower()
-	for _, v in ipairs(IconHolders) do
-		v.Holder.Visible = v.Data.Name:lower():find(query) and true or false
-	end
+query = (query or ""):lower()
+for _, v in ipairs(IconHolders) do
+v.Holder.Visible = v.Data.Name:lower():find(query) and true or false
+end
 end
 
 SearchBox:GetPropertyChangedSignal("Text"):Connect(function()
-	UpdateSearch(SearchBox.Text)
+UpdateSearch(SearchBox.Text)
 end)
 
 CopyBtn.MouseButton1Click:Connect(function()
-	if IconPreview.Image ~= "" then
-		local assetId = IconPreview.Image:match("%d+$")
-		if assetId then
-			pcall(function() setclipboard(assetId) end)
-		end
-	end
+if IconPreview.Image ~= "" then
+local assetId = IconPreview.Image:match("%d+$")
+if assetId then
+pcall(function() setclipboard(assetId) end)
+end
+end
+end)
+
+CopyNameBtn.MouseButton1Click:Connect(function()
+if TitleName.Text ~= "" then
+pcall(function() setclipboard(TitleName.Text) end)
+end
 end)
 
 local function CloseGUI()
-	MainUI.Visible = false
-	OpenUIBtn.Visible = true
+MainUI.Visible = false
+OpenUIBtn.Visible = true
 end
 
 local function OpenGUI()
-	MainUI.Visible = true
-	OpenUIBtn.Visible = false
+MainUI.Visible = true
+OpenUIBtn.Visible = false
 end
 
 CloseBtn.MouseButton1Click:Connect(CloseGUI)
